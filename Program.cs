@@ -139,6 +139,8 @@ inheritance heirarchy is well designed
 
 **/
 
+/**
+
 using OOPs.src.SolidPrinciples.LSP;
 
 // var rect = new OOPs.src.SolidPrinciples.LSP.Square();
@@ -154,4 +156,45 @@ System.Console.WriteLine($"area of the recatangle: {rectangle.Area}");
 Shape square = new Square{SideLength=5};
 System.Console.WriteLine($"area of the square: {square.Area}");
 
+
+//hi
+**/
+
+//--------------------------------------
+
+/**
+INTERFACE SEGREGATION PRINCIPLE (ISP)
+
+clients should not be forced to depend on interfaces they do not use
+
+initially, we made an interface that has area and volume itself 
+but say you take an example that you have a class called circle and need to calculate its area
+so then, in that case, you implement this interface. but a circle does not have volume, so you get an exception 
+
+this violates the ISP
+
+
+using OOPs.src.SolidPrinciples.ISP;
+var circle = new Circle();
+circle.Raidus=10;
+System.Console.WriteLine(circle.Area());
+
+**/
+
+//--------------------------------------
+
+/**
+DEPENDENCY INVERSION PRINCIPLE
+
+high level modules should not depend on low level modules, both should depend on abstraction
+
+using OOPs.src.SolidPrinciples.DIP;
+var car = new Car(new Engine());
+// this is called dependency injection, where we inject the dependency into the class
+car.StartCar();
+
+high level module : car( has a broader scope, coordinating more things)
+low level abstraction/module : engine
+
+**/
 
