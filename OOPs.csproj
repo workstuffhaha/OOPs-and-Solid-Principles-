@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <Folder Include="src\DesignPatterns\" />
+    <Folder Include="src\DesignPatterns\Momento\" />
   </ItemGroup>
 
 </Project>
