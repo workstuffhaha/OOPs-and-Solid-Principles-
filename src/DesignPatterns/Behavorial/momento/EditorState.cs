@@ -8,7 +8,12 @@ public class EditorState
     //memento
     // once the editor state is created, it shouldnt be able to edit it, should be constant
 
+    // represents a snapshot of the Editor's state.
+
+    // editorstate is immutable and cnnot be altered once created.
+
     private readonly string _title;
+    // immutable because readonly file
     private readonly string _content;
 
     //state meta data 

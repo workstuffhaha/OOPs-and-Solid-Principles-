@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\users\\prasharm\\OneDrive - McCain Foods Limited\\desktop\\C#\\OOPs\\OOPs.csproj": {}
+    "C:\\users\\prasharm\\OneDrive - McCain Foods Limited\\desktop\\C#\\OOPS\\OOPs.csproj": {}
   },
   "projects": {
-    "C:\\users\\prasharm\\OneDrive - McCain Foods Limited\\desktop\\C#\\OOPs\\OOPs.csproj": {
+    "C:\\users\\prasharm\\OneDrive - McCain Foods Limited\\desktop\\C#\\OOPS\\OOPs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\users\\prasharm\\OneDrive - McCain Foods Limited\\desktop\\C#\\OOPs\\OOPs.csproj",
+        "projectUniqueName": "C:\\users\\prasharm\\OneDrive - McCain Foods Limited\\desktop\\C#\\OOPS\\OOPs.csproj",
         "projectName": "OOPs",
-        "projectPath": "C:\\users\\prasharm\\OneDrive - McCain Foods Limited\\desktop\\C#\\OOPs\\OOPs.csproj",
+        "projectPath": "C:\\users\\prasharm\\OneDrive - McCain Foods Limited\\desktop\\C#\\OOPS\\OOPs.csproj",
         "packagesPath": "C:\\Users\\prasharm\\.nuget\\packages\\",
-        "outputPath": "C:\\users\\prasharm\\OneDrive - McCain Foods Limited\\desktop\\C#\\OOPs\\obj\\",
+        "outputPath": "C:\\users\\prasharm\\OneDrive - McCain Foods Limited\\desktop\\C#\\OOPS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\prasharm\\AppData\\Roaming\\NuGet\\NuGet.Config"

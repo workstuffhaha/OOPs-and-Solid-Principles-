@@ -9,13 +9,16 @@ public class Editor
 
     public EditorState CreateState()
     {
+        // an immutable snapshot 
+        //whenever backup is needed, CreateState() is called, and it creates a new EditorState object containing the current state.
         return new EditorState(Title, Content);
     }
 
     public void Restore(EditorState state)
     {
+        //undo operation is performed, the method restores the editors state using a previously saved EditorState.
         Title = state.GetTitle();
         Content= state.GetContent();
-        
+
     }
 }
