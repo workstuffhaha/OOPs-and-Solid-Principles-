@@ -52,7 +52,7 @@ doc.Publish();
 System.Console.WriteLine(doc.State);
 
 **/
-
+/**
 using OOPs.src.DesignPatterns.Behavorial.State_Pattern;
 
 //here new document is created, it is in draft state
@@ -66,3 +66,20 @@ System.Console.WriteLine(doc.State);
 doc.Publish();
 System.Console.WriteLine(doc.State);
 
+**/
+
+//----------------------------------------
+
+//STRATEGY PATTERN 
+
+using OOPs.src.DesignPatterns.Behavorial.Strategy_Pattern;
+using OOPs.src.DesignPatterns.Behavorial.Strategy_Pattern.GoodSolution;
+
+var videoStore = new NewVideoStorage(new CompressorMOV(), new OverlayBW());
+videoStore.Store("/videos/some-movie");
+
+// because we added setter methods, that allows us to change the storage way or the overlay method. we do not have to create a new object of the class NewVideoStorage for a different compressor.
+
+videoStore.SetCompressor(new CompressMP4());
+videoStore.SetOverlay(new OverlayNone());
+videoStore.Store("/videos/updated-movie");
